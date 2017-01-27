@@ -1,0 +1,10 @@
+var guess = Math.floor(Math.random() * 50);
+var randomNumber = Math.floor(Math.random() * 10) + 1;
+console.log(randomNumber);
+console.log('I am thinking of a number. guess which one.');
+console.log(guess);
+if(randomNumber === guess){
+  console.log('good work');
+} else {
+  console.log('not a match');
+}
