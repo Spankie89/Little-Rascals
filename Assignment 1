@@ -1,8 +1,6 @@
 var guess = prompt('I am thinking of a number. guess which one.');
 var randomNumber = Math.floor(Math.random() * 10) + 1;
-console.log(randomNumber);
 console.log('I am thinking of a number. guess which one.');
-console.log(guess);
 if(randomNumber === guess){
   console.log('good work');
 } else {
